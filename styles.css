@@ -29,7 +29,27 @@
 .iconremark{
   color: #F59E0B;
 }
-
+/* background and text color */
 .remarkablecolor{
-  color: #289BDE;
+  background-color: #289BDE;
+}
+.remark-text{
+  color:#289BDE;
+}
+.anchor{
+  text-decoration: none;
+}
+footer{
+  background-color: black;
+}
+
+
+/*  */
+.carusel-card {
+  background-color:blue;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
