@@ -1,4 +1,4 @@
-/* cover image */
+/* Cover image */
 .carousel-caption{
     width:100%;
     height:100%;
@@ -7,6 +7,7 @@
     bottom:0;
     background-color:rgba(0,0,0,0.6);
   }
+/* Height for mobile device */
   .carousel-indicators[data-bs-target]{
     width: 70px;
     height: 6px;
@@ -25,10 +26,6 @@
 .explore-remark{
   background-color: #F4FAFD;
 }
-/* Star icon */
-.iconremark{
-  color: #F59E0B;
-}
 /* background and text color */
 .remarkablecolor{
   background-color: #289BDE;
@@ -39,12 +36,11 @@
 .anchor{
   text-decoration: none;
 }
+/* Footer Color */
 footer{
   background-color: black;
 }
-
-
-/*  */
+/* Card Carusel  */
 .carusel-card {
   background-color:blue;
   width: 5vh;
@@ -52,4 +48,5 @@ footer{
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
+  margin: -20px;
 }
